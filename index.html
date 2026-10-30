@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banana Depi.io</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hud">
+    <h1>🍌 BANANA DEPI.IO</h1>
+    <div id="stats">
+      <span id="level">Level 1</span>
+      <span id="score">Score: 0</span>
+      <span id="health">HP: 100</span>
+    </div>
+    <div id="xpOuter"><div id="xpBar"></div></div>
+    <div id="xpText">0 / 100 XP</div>
+  </div>
+
+  <div id="upgradePanel">
+    <h2>UPGRADES</h2>
+    <div id="upgradeButtons"></div>
+  </div>
+
+  <div id="classPanel">
+    <h2>CHOOSE YOUR TANK</h2>
+    <div id="classButtons"></div>
+  </div>
+
+  <div id="gameOver">
+    <h1>YOUR TANK WAS DESTROYED!</h1>
+    <p id="finalScore"></p>
+    <button id="restart">RESPAWN</button>
+  </div>
+
+  <div id="help">
+    WASD: Move | Mouse: Aim | Click: Shoot | E: Auto Fire | M: Auto Spin
+  </div>
+
+  <canvas id="game"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
